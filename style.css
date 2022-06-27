@@ -1,0 +1,327 @@
+:root {
+    --color1: #D89584;
+    --color2: #F4F4F4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    max-width: 808px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.content {
+    padding-bottom: 25px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    box-shadow: 20px 20px 40px 40px rgba(0, 0, 0, 0.2), 20px 20px 40px 40px rgba(0, 0, 0, 0.19);
+}
+
+/* div.catagory {
+    text-align: center;
+}
+
+p.catagory {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    padding: 18px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+div.cover {
+    background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
+    height: 360px;
+    position: relative;
+}
+
+img.cover-profile {
+    height: 30%;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 50px
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+div.cover p {
+    color: lightgray;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+div.cover-contact {
+    /* background-color: #FF000080; */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+}
+
+div.cover-contact a {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a.contact-button {
+    color: var(--color1);
+    border: 3px solid var(--color1);
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #00000040;
+}
+
+.Header-contact {
+    position: absolute;
+    right: 20px;
+    top: 4px;
+}
+
+.header-text {
+    margin-left: 16px;
+    margin-top: 22px;
+    height: 45px;
+    display: inline-block
+}
+
+/* Style Change When We Hover The Button */
+a.contact-button:hover {
+    color: white;
+    border: 3px solid white;
+}
+
+div.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+div.gray-section-1 {
+    background: url(triangle2white.svg) no-repeat center bottom/100%;
+    background-color: var(--color2);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+div.gray-section-2 {
+    background: url(triangle1white.svg) no-repeat center top/100%;
+    background-color: var(--color2);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.gray-section-2-tables {
+    width: 50%
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0;
+}
+
+div.seperator {
+    height: 1px;
+    width: 30%;
+    background-color: gray;
+    margin-left: 35%;
+    margin-right: 35%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+div.gray-section-1 p {
+    font-size: 22px;
+    color: #656565;
+    text-align: center;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.col40 {
+    width: 40%;
+}
+
+.float-right {
+    float: right;
+}
+
+.col60 {
+    width: 60%;
+}
+
+div.text-with-vertical-line {
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.vertical-bar {
+    height: 50px;
+    width: 4px;
+    border-left: 4px solid var(--color1);
+}
+
+.Responsive-Width {
+    width: 100%;
+    height: 100%;
+}
+
+div.frame {
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2), 20px 20px 20px 20px rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.frame-image {
+    width: 100px; 
+    height: 100px; 
+    display: inline-block; 
+    padding-bottom: 25px; 
+    padding-left: 25px; 
+    padding-right: 10px; 
+    vertical-align: top;
+}
+
+/* Portfolio */
+.portfolio-header {
+    height: 90px;
+    background: url(header.jpg) no-repeat center/cover;
+    position: relative;
+
+}
+
+.portfolio-header-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+a.back-btn {
+    display: inline-block; 
+    position: absolute; 
+    margin-left: -375px; 
+    margin-top: -10px;
+}
+
+
+/* For Mobile Phones */
+@media only screen and (max-width: 768px) {
+    img.cover-profile {
+        height: 90px;
+        margin-top: 40px
+    }
+
+    div.frame {
+        width: 90%;
+    }
+
+    div.text-with-vertical-line {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    div.cover p {
+        font-size: 13px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+
+    .float-right {
+        float: none;
+    }
+
+    .gray-section-2-tables {
+        width: 100%
+    }
+
+    div.gray-section-2 {
+        background: url(triangle1white.svg) no-repeat center top/100%;
+        background-color: var(--color2);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-top: 100px;
+    }
+
+    a.contact-button {
+        padding: 7px 10px;
+        margin-top: 20px;
+        background-color: #00000040;
+    }
+    
+    .Header-contact {
+        position: absolute;
+        right: 20px;
+        top: 4px;
+    }
+
+    .portfolio-header-title {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 4px;
+    }
+
+    .frame-image {
+        width: 75px; 
+        height: 75px; 
+    }
+
+    div.content {
+        padding-bottom: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-top: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.2), 10px 10px 20px 20px rgba(0, 0, 0, 0.19);
+    }
+
+    a.back-btn {
+        margin-left: -160px; 
+        margin-top: -15px;
+    }
+}
