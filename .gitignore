@@ -1,0 +1,57 @@
+# Django project directories
+*.log
+*.pot
+*.pyc
+__pycache__/
+media/
+staticfiles/
+
+# Secret keys and sensitive information
+.env
+.env.*
+.env.local
+.env.dev
+.env.prod
+.env.test
+.env.example
+
+# Database
+*.sqlite3
+
+# Development files
+*.bak
+*.swp
+*~
+.DS_Store
+*.pyo
+*.pyc
+
+# Dependency directories
+venv/
+env/
+env.bak/
+env.tmp/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+log/
+logs/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Test database
+test_db.sqlite3
+
+# Ignore pipenv/virtualenv cruft
+Pipfile.lock
+pipenv.lock
+.venv/
+venv/
+
