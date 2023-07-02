@@ -4,5 +4,5 @@
 - This is Inspired from a Udemy Python Course By Jonathon Roux.
 - In This Project i talk about Who i Am? What are My Skills? What are the Projects that are done by me?
 - This Project is Deployed on [netlify](https://www.netlify.com/).
-- Go [Here](https://praddyumnyadav.netlify.app/) to views this.
+- Go [Here](https://praddyumnyadav.netlify.app/) to view this.
 - You Can Contact Me Directly Through Email from Here.
